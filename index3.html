@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HIERROS CyP — Chapas, Caños, Perfiles | Envío sin cargo</title>
+  <meta name="description" content="Hierros CyP - Venta al por mayor y menor de productos siderúrgicos: chapas, caños, perfiles, ángulos y metal desplegado. Corte a medida y envío sin cargo. Cotizá por WhatsApp." />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --yellow:#FFD400;
+      --black:#0A0A0A;
+      --gray:#f5f5f5;
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:"Poppins",system-ui,Arial;background:#111;color:#fff;line-height:1.4}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:28px}
+    header.hero{
+      display:flex;
+      gap:24px;
+      align-items:center;
+      justify-content:space-between;
+      padding:28px;
+      background:linear-gradient(180deg, rgba(10,10,10,0.95), rgba(10,10,10,0.9));
+      border-radius:8px;
+    }
+    .hero-left{flex:1;min-width:240px}
+    .brand{font-family:"Oswald"; font-size:34px; color:var(--yellow); letter-spacing:1px; margin:0}
+    .tag{color:#fff;opacity:0.9;margin-top:6px}
+    .hero-cta{display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+    .btn-whatsapp{background:var(--yellow);color:var(--black);padding:14px 18px;border-radius:10px;font-weight:700;display:inline-flex;gap:10px;align-items:center}
+    .badge{background:var(--yellow);color:var(--black);padding:8px 12px;border-radius:999px;font-weight:700}
+    /* sections */
+    section{margin:28px 0;padding:18px;border-radius:8px}
+    .card{background:linear-gradient(180deg,#0f0f0f, #121212);padding:18px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.6)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    h2{font-family:"Oswald";font-size:20px;margin:0 0 12px;color:var(--yellow)}
+    p.lead{margin:0 0 12px;color:#ddd}
+    ul{margin:0;padding-left:18px}
+    .price-box{background:var(--yellow);color:var(--black);padding:12px;border-radius:8px;font-weight:700;display:inline-block}
+    footer{padding:18px;text-align:center;color:#ddd;font-size:14px}
+    /* responsive */
+    @media(max-width:900px){
+      .grid{grid-template-columns:repeat(1,1fr)}
+      .hero{flex-direction:column;align-items:flex-start}
+      .hero-cta{width:100%;align-items:flex-start}
+    }
+    /* image area (now uses an <img> so image is always fully visible) */
+    .visual{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#222;
+      border-radius:8px;
+      border:2px solid rgba(255,212,0,0.06);
+      padding:0;
+      overflow:hidden;
+    }
+    /* img fills container horizontally; height adjusts to keep whole image visible */
+    .visual img{
+      display:block;
+      width:100%;
+      height:auto;
+      max-width:100%;
+      border-radius:6px;
+      object-fit:contain;
+    }
+    .sello-envio{position:relative;display:inline-block;padding:10px 14px;background:rgba(0,0,0,0.6);border-radius:10px;color:var(--yellow);font-weight:700}
+    .how-steps{display:flex;gap:12px;flex-wrap:wrap}
+    .step{background:#0f0f0f;padding:12px;border-radius:8px;flex:1;min-width:160px}
+    /* small top-right note */
+    .top-note{font-size:13px;color:#ddd;opacity:0.9;text-align:right}
+    .section-title{border-top:2px solid rgba(255,212,0,0.06);padding-top:12px;margin-top:6px}
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <!-- HERO -->
+    <header class="hero card" role="banner">
+      <div class="hero-left">
+        <h1 class="brand">HIERROS CyP SRL</h1>
+        <div class="tag">Chapas • Caños • Perfiles</div>
+        <p style="margin-top:10px;color:#ddd">Corte a medida • Stock permanente</p>
+      </div>
+
+      <div class="hero-cta">
+        <div class="badge">ENVÍO SIN CARGO</div>
+        <a class="btn-whatsapp" href="https://wa.me/5491168839155" target="_blank" rel="noopener">
+          📲 Cotizá por WhatsApp
+        </a>
+        <div style="color:#bbb;margin-top:6px;font-size:14px">Tel: 11-6883-9155</div>
+      </div>
+    </header>
+
+    <!-- Visual: ahora con etiqueta <img> para que se vea completa -->
+    <section class="card" aria-label="Galería">
+      <div class="visual" role="img" aria-label="Foto del depósito — reemplazá por tus fotos">
+        <!-- Guarda la foto con el nombre camion.jpeg en la misma carpeta que este HTML -->
+        <img src="camion.jpeg" alt="Fachada Hierros CyP con camión en la puerta">
+      </div>
+    </section>
+
+    <!-- Materiales -->
+    <section class="card section-title">
+      <h2>Venta al por mayor y menor de productos siderúrgicos</h2>
+      <p class="lead">Vendemos materiales con stock real y actualizaciones diarias. Consultá medidas y disponibilidad.</p>
+      <div class="grid" style="margin-top:12px">
+        <div>
+          <strong>Chapas</strong>
+          <ul>
+            <li>Galvanizada</li>
+            <li>Laminado en frío</li>
+            <li>Laminado en caliente</li>
+            <li>Prepintada</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Caños estructurales</strong>
+          <ul>
+            <li>Redondos</li>
+            <li>Cuadrados</li>
+            <li>Rectangulares</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Hierros</strong>
+          <ul>
+            <li>Ángulos</li>
+            <li>Planchuelas</li>
+            <li>IPN</li>
+            <li>UPN</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:12px;color:#ccc;font-size:14px">Si necesitás una medida o espesor específico, enviá detalle por WhatsApp.</div>
+    </section>
+
+    <!-- Todo para techo -->
+    <section class="card section-title">
+      <h2>Todo para techo</h2>
+      <div class="grid" style="margin-top:12px">
+        <div>
+          <strong>Materiales y accesorios</strong>
+          <ul>
+            <li>Aislante</li>
+            <li>Tornillos</li>
+            <li>Zinguería</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Chapa para techo (hasta 13 metros)</strong>
+          <ul>
+            <li>Galvanizada</li>
+            <li>Cincalum</li>
+            <li>Prepintada</li>
+            <li>Plástica</li>
+            <li>Policarbonato</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Perfiles para techo (6 y 12 metros)</strong>
+          <ul>
+            <li>Perfil C</li>
+            <li>Perfil U</li>
+            <li>Galvanizados / Negros</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="card">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div>
+          <strong>Corte a medida</strong>
+          <p class="lead">Cortamos según tus necesidades: espesores y largos a medida.</p>
+        </div>
+        <div>
+          <strong>Venta mayorista / minorista</strong>
+          <p class="lead">Atendemos talleres, corralones, constructoras y particulares.</p>
+        </div>
+        <div>
+          <strong>Entrega sin cargo</strong>
+          <p class="lead">Coordinamos y entregamos tu pedido sin costo (consultá condiciones).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cómo comprar -->
+    <section class="card">
+      <h2>Cómo comprar</h2>
+      <div class="how-steps" style="margin-top:12px">
+        <div class="step"><strong>1</strong> Enviá detalle por WhatsApp</div>
+        <div class="step"><strong>2</strong> Recibí precio y stock</div>
+        <div class="step"><strong>3</strong> Confirmás y coordinamos entrega (o retiro)</div>
+      </div>
+      <div style="margin-top:14px">
+        <a class="btn-whatsapp" href="https://wa.me/5491168839155" target="_blank">📲 Enviar consulta ahora</a>
+      </div>
+    </section>
+
+    <!-- Contacto / Ubicación -->
+    <section class="card">
+      <h2>Contacto y ubicación</h2>
+      <p class="lead">📍 Juan Manuel de Rosas 10077 — Gregorio de Laferrere, Buenos Aires</p>
+      <p class="lead">📞 11-6883-9155</p>
+      <p class="lead">
+        Horario:<br>
+        Lun–Vie 08:00–17:00<br>
+        Sáb 08:00–12:30<br>
+        (Los sábados no se realizan envíos)
+      </p>
+      <div style="margin-top:12px;background:#0b0b0b;padding:12px;border-radius:8px">
+        <small style="color:#aaa">Mapa (reemplazá por embed de Google Maps en la versión final)</small>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> HIERROS CyP SRL — Envío sin cargo. Cotizá por WhatsApp: <a href="https://wa.me/5491168839155" target="_blank">11-6883-9155</a>
+    </footer>
+  </div>
+
+<script>
+  document.getElementById('year').innerText = new Date().getFullYear();
+</script>
+</body>
+</html>
